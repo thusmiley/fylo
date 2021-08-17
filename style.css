@@ -150,7 +150,7 @@ input::-webkit-slider-thumb {
 @media (max-width: 1440px) {
   body {
     background: url("./images/bg-desktop.png") center bottom no-repeat;
-    background-size: auto 50%;
+    background-size: 100% 50%;
     background-color: #0c122c;
   }
 }
