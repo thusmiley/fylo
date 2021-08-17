@@ -153,8 +153,7 @@ input::-webkit-slider-thumb {
 
 @media (max-width: 1200px) {
   body {
-    background: url("./images/bg-mobile.png") top center no-repeat;
-    background-size: cover;
+    background: none;
     background-color: #0c122c;
   }
   .container {
@@ -190,6 +189,13 @@ input::-webkit-slider-thumb {
   }
   .data h1::before {
     display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  body {
+    background: url("./images/bg-mobile.png") top center no-repeat;
+    background-size: cover;
   }
 }
 /*# sourceMappingURL=style.css.map */
