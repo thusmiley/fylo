@@ -11,10 +11,47 @@
 "
     />
     <meta property="og:image" content="images/desktop-preview.jpg" />
-    <meta property="og:url" content="" />
+    <meta property="og:url" content="https://thusmiley.github.io/fylo/" />
     <link rel="icon" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="./style.css" />
     <title>Fylo</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="logo"><img src="./images/logo.svg" alt="" /></div>
+        <div class="menu">
+          <div class="file">
+            <img src="./images/icon-document.svg" alt="" />
+          </div>
+          <div class="folder">
+            <img src="./images/icon-folder.svg" alt="" />
+          </div>
+          <div class="upload">
+            <img src="./images/icon-upload.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="data">
+        <label for="bytes"
+          >You've used <strong>815 GB</strong> of your storage</label
+        >
+        <br />
+        <input
+          type="range"
+          id="bytes"
+          name="bytes"
+          min="0"
+          max="1000"
+          value="815"
+          disabled
+        />
+        <div class="gb">
+          <p>0 GB</p>
+          <p>1000 GB</p>
+        </div>
+        <h1>185 <span>GB LEFT</span></h1>
+      </div>
+    </div>
+  </body>
 </html>
