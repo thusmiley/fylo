@@ -52,6 +52,10 @@ body {
   width: 70%;
 }
 
+.menu img:hover {
+  cursor: pointer;
+}
+
 .file, .folder, .upload {
   background-color: #0c122c;
   padding: 10px;
@@ -146,16 +150,12 @@ input::-webkit-slider-thumb {
 @media (max-width: 1440px) {
   body {
     background: url("./images/bg-desktop.png") center bottom no-repeat;
-    background-size: contain;
+    background-size: auto 50%;
     background-color: #0c122c;
   }
 }
 
 @media (max-width: 1200px) {
-  body {
-    background: none;
-    background-color: #0c122c;
-  }
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
