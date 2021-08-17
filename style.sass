@@ -5,6 +5,11 @@ $grayish-blue: hsl(229, 7%, 55%)
 $dark-blue: hsl(228, 56%, 26%)
 $very-dark-blue: hsl(229, 57%, 11%)
 
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
 body
     font-size: 14px
     font-family: 'Raleway', sans-serif
@@ -42,7 +47,7 @@ body
     background-color: $very-dark-blue
     padding: 10px        
     border-radius: 10px
-    width: 25px
+    width: 45px
     display: flex
     justify-content: center
     align-items: center
@@ -50,7 +55,7 @@ body
 .data
     background-color: $dark-blue    
     width: 65%
-    padding: 30px 40px 30px 40px
+    padding: 40px
     color: $pale-blue
     border-radius: 10px
     position: relative
@@ -63,7 +68,7 @@ body
         display: flex
         align-items: center
         font-size: 40px
-        top: -50%
+        top: -40%
         right: 7%
         & span
             color: $grayish-blue
@@ -101,7 +106,7 @@ input::-webkit-slider-thumb
 .gb 
     display: flex
     justify-content: space-between
-    margin-top: -10px
+    margin-top: 3px
 
 @media (max-width: 1440px)
     body
@@ -119,16 +124,16 @@ input::-webkit-slider-thumb
         margin-top: -40px
 
     .main
-        width: 70%
+        width: 100%
         margin: 0
 
     .data 
-        width: 70%
+        width: 100%
         margin-top: 20px
         & h1 
             position: absolute
             right: 25%
-            top: 57%
+            top: 77%
             border-radius: 10px
             &::before
                 display: none
